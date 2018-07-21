@@ -1,3 +1,5 @@
+import ETHTransferButton from './../../../user/ui/ETHTransferButton'
+import RequestButton from './../../../user/ui/RequestButton'
 import React, { Component } from 'react'
 
 class Profile extends Component {
@@ -18,6 +20,17 @@ class Profile extends Component {
               <strong>Name</strong><br />
               {this.props.authData.name}
             </p>
+            <br />
+            <RequestButton /><br />
+            <br />
+            
+        
+        	<div id="Ninja_Medical_ja"></div>
+        	<div id="Ninja_Medical_en"></div>
+        	<div id="Ninja_Medical_cn"></div>
+
+        
+            <div className="hidden" id="Ninja_Medical_Eth_Transfer"><ETHTransferButton /></div>
           </div>
         </div>
       </main>
