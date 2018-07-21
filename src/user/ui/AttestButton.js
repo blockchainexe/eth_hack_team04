@@ -17,7 +17,6 @@ class AttestButton extends Component {
 	        })
 	    })
     }
-
     render(){
         return(
             <button><a href="#" className="pure-menu-link" onClick={(event) => this.attest()}>Attest</a></button>

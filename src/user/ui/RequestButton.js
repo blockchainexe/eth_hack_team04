@@ -9,7 +9,6 @@ class RequestButton extends Component {
         	document.getElementById('Ninja_Medical_cn').appendChild(document.createTextNode(credentials.Ninja_Medical.cn));
 	    })
     }
-
     render(){
         return(
             <button><a href="#" className="pure-menu-link" onClick={(event) => this.request()}>Request</a></button>

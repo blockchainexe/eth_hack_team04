@@ -15,8 +15,7 @@ class Dashboard extends Component {
           <div className="pure-u-1-1">
             <h1>Dashboard</h1>
             <p><strong>Congratulations {this.props.authData.name}!</strong> If you're seeing this page, you've logged in with UPort successfully.</p>
-            <AttestButton /><br />
-            <RequestButton />
+            <AttestButton />&nbsp;<RequestButton />
           </div>
         </div>
         <div id="Ninja_Medical_ja"></div>
