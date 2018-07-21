@@ -3,6 +3,7 @@ import { uport } from './../../util/connectors.js'
 
 class ETHTransferButton extends Component {
     request(){
+      alert('Sending ETH Transaction');
     }
     render(){
         return(
