@@ -15,7 +15,7 @@ class Profile extends Component {
         <div className="pure-g">
           <div className="pure-u-1-1">
             <h1>医療情報読み込み</h1>
-            <div className="d-form-button-group"><RequestButton /></div><br />
+            <div id="Ninja_Medical_Request_Button" className="d-form-button-group"><RequestButton /></div><br />
             <br />
             
         

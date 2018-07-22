@@ -10,6 +10,7 @@ class RequestButton extends Component {
         	
         	document.getElementById('Ninja_Medical_Eth_Transfer').classList.remove('hidden');
         	document.getElementById('Ninja_Medical_Output').classList.remove('hidden');
+        	document.getElementById('Ninja_Medical_Request_Button').classList.add('hidden');
 
 	    })
     }
