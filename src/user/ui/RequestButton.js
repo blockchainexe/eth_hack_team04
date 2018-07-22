@@ -9,6 +9,7 @@ class RequestButton extends Component {
         	document.getElementById('Ninja_Medical_cn').appendChild(document.createTextNode(credentials.NinjaMedical.cn));
         	
         	document.getElementById('Ninja_Medical_Eth_Transfer').classList.remove('hidden');
+        	document.getElementById('Ninja_Medical_Output').classList.remove('hidden');
 
 	    })
     }

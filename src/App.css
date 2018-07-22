@@ -66,3 +66,55 @@ pre {
   height: 16px;
   margin-right: 10px;
 }
+
+/* Dashboard */
+.d-Dashboard-main{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.d-form-group{
+  margin: 20px 0;
+}
+.d-form-group h1{
+  text-align: center;
+}
+
+.d-form-parts{
+  margin: 20px 0;
+}
+
+.d-form-label{
+  padding-left: 10px;
+  border-left: 3px solid #3c8dbc;
+}
+
+.d-form-parts textarea{
+  height: auto;
+  width: 400px;
+}
+
+.d-form-group  label{
+  cursor: pointer;
+}
+
+.d-form-group input[type=checkbox]{
+  margin:20px 20px 20px 5px;
+}
+
+.d-form-button-group button{
+  background-color: #3c8dbc;
+  border-color: #367fa9;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid transparent;
+}
+
+.d-form-button-group button a{
+  color: #fff !important;
+}
+
+.d-form-button-group .pure-menu-link{
+  background: none;
+}

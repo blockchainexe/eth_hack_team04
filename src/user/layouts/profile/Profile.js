@@ -14,23 +14,22 @@ class Profile extends Component {
       <main className="container">
         <div className="pure-g">
           <div className="pure-u-1-1">
-            <h1>Profile</h1>
-            <p>Change these details in UPort to see them reflected here.</p>
-            <p>
-              <strong>Name</strong><br />
-              {this.props.authData.name}
-            </p>
-            <br />
-            <RequestButton /><br />
+            <h1>医療情報読み込み</h1>
+            <div className="d-form-button-group"><RequestButton /></div><br />
             <br />
             
         
+        	<div id="Ninja_Medical_Output" className="hidden">
+        	日本語：<br />
         	<div id="Ninja_Medical_ja"></div>
+        	英語：<br />
         	<div id="Ninja_Medical_en"></div>
+        	中国語：<br />
         	<div id="Ninja_Medical_cn"></div>
+        	</div>
 
         
-            <div className="hidden" id="Ninja_Medical_Eth_Transfer"><ETHTransferButton /></div>
+            <div className="hidden d-form-button-group" id="Ninja_Medical_Eth_Transfer"><ETHTransferButton /></div>
           </div>
         </div>
       </main>
