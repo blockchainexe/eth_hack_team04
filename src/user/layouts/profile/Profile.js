@@ -26,6 +26,9 @@ class Profile extends Component {
         	<div id="Ninja_Medical_en"></div>
         	中国語：<br />
         	<div id="Ninja_Medical_cn"></div>
+        	
+        	<img src="/img1836j5256_1.jpg" />
+
         	</div>
 
         

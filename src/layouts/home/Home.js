@@ -6,7 +6,6 @@ class Home extends Component {
       <main className="container">
         <div className="pure-g">
           <div className="pure-u-1-1">
-
           </div>
         </div>
       </main>
